@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 10%; /* Black (HSL equivalent to #000000) */
+    --foreground: 0 0% 85%; /* #D9D9D9 */
+    --card: 0 0% 14%; /* #232121 */
+    --card-foreground: 0 0% 85%; /* Matches foreground for consistency */
+    /* Other variables remain unchanged */
+  }
+
+  .dark {
+    --background: 0 0% 10%; /* Black */
+    --foreground: 0 0% 85%; /* #D9D9D9 */
+    --card: 0 0% 14%; /* #232121 */
+    --card-foreground: 0 0% 85%; /* Matches foreground */
+    /* Other variables remain unchanged */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
