@@ -8,11 +8,11 @@ interface Category {
 }
 
 interface NavbarProps {
-  category: Category[];
+  data: Category[];
 }
 
-const Navbar: React.FC<NavbarProps> = ({ category }) => {
-  const [newCategory, setNewCategory] = useState<Category[]>(category);
+const Navbar: React.FC<NavbarProps> = ({ data }) => {
+  const [newCategory, setNewCategory] = useState<Category[]>(data);
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const handleCategoryClick = (index: number) => {
