@@ -8,7 +8,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ news }) => {
   return (
-    <div className="h-[80%] w-full bg-card rounded-[50px] gap-5 lg:gap-3 flex flex-col p-5 ">
+    <div className=" h-[80%] w-full bg-card rounded-[50px] gap-5 lg:gap-3 flex flex-col p-5 ">
       <div className="h-[45%] lg:h-[35%] w-full bg-black rounded-[50px] overflow-hidden">
         <img src="/pexels-pixabay-267350.jpg" />
       </div>
