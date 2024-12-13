@@ -8,17 +8,17 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ news }) => {
   return (
-    <div className=" h-[80%] w-full bg-card rounded-[50px] gap-5 lg:gap-3 flex flex-col p-5 ">
-      <div className="h-[45%] lg:h-[35%] w-full bg-black rounded-[50px] overflow-hidden">
+    <div className=" h-[85%] md:h-[100dvh] md:w-full md:flex md:justify-center md:items-center w-full bg-card rounded-[50px] gap-5 lg:gap-3 flex flex-col p-5 md:p-5 ">
+      <div className=" lg:h-[35%] w-full md:h-[30%] bg-black rounded-[50px] overflow-hidden md:mt-2 2xl:h-[45%]">
         <img src="/pexels-pixabay-267350.jpg" />
       </div>
-      <div className="  w-full">
-        <h3 className="font-semibold text-3xl px-1 font-serif overflow-hidden lg:text-lg 2xl:text-2xl"> 
+      <div className=" w-full">
+        <h3 className="font-semibold text-3xl px-1 font-serif overflow-hidden lg:text-2xl 2xl:text-2xl"> 
           {news.title}
         </h3>
       </div>
       <div className=" h-[45%] w-full overflow-auto mb-[2]">
-        <p className="text-lg lg:font-medium lg:text-sm font-serif text-justify 2xl:text-xl text-gray-400">
+        <p className="text-lg lg:font-medium lg:text-m font-serif text-justify 2xl:text-m text-gray-400">
           Cutting-edge technologies like Artificial Intelligence, Machine
           Learning, and Blockchain are revolutionizing industries and
           transforming daily life. AI and ML are enhancing decision-making,
