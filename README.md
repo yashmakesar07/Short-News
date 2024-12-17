@@ -1,4 +1,3 @@
-Here is a professional and detailed README.md file for your Short News Application built with TypeScript, React, and News API:
 
 📰 Short News Application
 
