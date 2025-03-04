@@ -3,6 +3,8 @@
 
 A Short News Application built using React and TypeScript, which fetches and displays the latest news articles from the News API. It includes basic operations and testing using TypeScript to ensure code reliability and maintainability.
 
+Deployment Link: https://main.d19b1zxcgtm83x.amplifyapp.com/
+
 🚀 Features
 	•	Latest News Fetching: Retrieves up-to-date news articles using the News API.
 	•	TypeScript Integration: Strongly-typed components and logic for error-free development.
@@ -14,6 +16,8 @@ A Short News Application built using React and TypeScript, which fetches and dis
 	•	TypeScript
 	•	News API for fetching news data
 	•	CSS for styling (or replace with Tailwind/Material UI if used)
+ 	•	AWS Amplify service to deploy frontend
+ 	
 
 Developed by Yash Makesar.
 	•	Email: yash.makesar02@gmail.com
